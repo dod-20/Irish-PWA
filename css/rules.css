@@ -1,0 +1,73 @@
+/* === Past Tense Lesson Specific Styles === */
+
+/* Main lesson container */
+.tense-sect {
+  /* background-color: #273746; slightly lighter than page background */
+  background-color: #1E2A38;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.3),
+              0 4px 8px rgba(0,0,0,0.4);
+}
+
+/* Top heading */
+.tense-sect > h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Section container */
+.rules {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #3A4B5C;
+}
+
+/* Rule blocks */
+.rules h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.rules b {
+  background-color: #3A4B5C;
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  line-height: 1.6;
+  font-size: 1rem;
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.4),
+              1px 1px 4px rgba(0,0,0,0.5);
+}
+
+/* Highlighted words (verbs) */
+ .rules b {
+  color: #ffffff;
+  font-weight: bold;
+  background: linear-gradient(145deg, #2E3B4A, #1E2A38);
+  padding: 0.1rem 0.4rem;
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.rule {
+  margin: 1rem;
+  /* background-color: #1E2A38; */
+} 
+
+/* Responsive tweaks */
+@media (min-width: 700px) {
+  .tense-sect {
+    padding: 3rem;
+  }
+
+  .rules {
+    gap: 2rem;
+  }
+}
